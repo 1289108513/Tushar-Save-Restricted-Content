@@ -63,7 +63,7 @@ def progress(current, total, message, type):
 
 
 # start command
-@bot.on_message(filters.command(["tushar"]))
+@bot.on_message(filters.command(["start"]))
 def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
 	bot.send_message(message.chat.id, f"**__👋 Hi** **{message.from_user.mention}**, **I am Save Restricted Bot, Which is Deploy by TUSHAR , I can send you restricted content by it's post link__**\n\n{USAGE}",
 	reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("🤖BOT MADE BY TUSHAR🇮🇳", url="https://t.me/Tushar_1665")]]), reply_to_message_id=message.id)
@@ -278,10 +278,8 @@ https://t.me/c/xxxx/101 - 120
 **__note that space in between doesn't matter__**
 ```
 
-**_JOIN : @AIM_AIIMS143**
-```
-
-**_UPDATE CHANNEL : @forwardtushar**
+**JOIN : @AIM_AIIMS143**
+**UPDATE CHANNEL : @forwardtushar**
 """
 
 
