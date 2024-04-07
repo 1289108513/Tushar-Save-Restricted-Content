@@ -278,12 +278,12 @@ https://t.me/c/xxxx/101 - 120
 **__note that space in between doesn't matter__**
 ```
 
-**_JOIN : @AIM_AIIMS143_**
+**JOIN : @AIM_AIIMS143**
 ```
 
-**_UPDATE CHANNEL : @forwardtushar_**
+**_UPDATE CHANNEL : @forwardtushar**
 """
-
+([[ InlineKeyboardButton("🤖BOT MADE BY TUSHAR🇮🇳", url="https://t.me/Tushar_1665")]])
 
 # infinty polling
 bot.run()
