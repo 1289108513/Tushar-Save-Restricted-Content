@@ -276,6 +276,12 @@ https://t.me/c/xxxx/101 - 120
 ```
 
 **__note that space in between doesn't matter__**
+```
+
+**_JOIN : @AIM_AIIMS143_**
+```
+
+**_UPDATE CHANNEL : @forwardtushar_**
 """
 
 
