@@ -248,7 +248,7 @@ def get_message_type(msg: pyrogram.types.messages_and_media.message.Message):
 	except: pass
 
 
-USAGE = """**🎀🇮🇳🎊🇮🇳🎀🇮🇳🎊🎀**
+USAGE = """**💥💥💥💥💥💥💥💥💥💥💥**
 
 BOT : @forward_tushar_bot🤖
 BOT : @tushar_forward_3_bot🤖
