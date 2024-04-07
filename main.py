@@ -250,6 +250,7 @@ def get_message_type(msg: pyrogram.types.messages_and_media.message.Message):
 
 USAGE = """**💥💥💥💥💥💥💥💥💥💥💥**
 
+BOT : @TUSHAR0143_bot🤖
 BOT : @forward_tushar_bot🤖
 BOT : @tushar_forward_3_bot🤖
 JOIN : @AIM_AIIMS143🌟🌟🌟🌟
