@@ -65,11 +65,19 @@ def progress(current, total, message, type):
 # start command
 @bot.on_message(filters.command(["start"]))
 def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
-	bot.send_message(message.chat.id, f"**__👋 Hi** **{message.from_user.mention}**, **I am Save Restricted Bot, Which is Deploy by TUSHAR , I can send you restricted content by it's post link__**\n\n{USAGE}",
-	reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("🤖BOT MADE BY TUSHAR🇮🇳", url="https://t.me/Tushar_1665")]]), 
-	reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("💡UPDATE CHANNEL🛎️", url="https://t.me/forwardtushar")]]),
-	reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("🔥ALSO JOIN🔥", url="https://t.me/AIM_AIIMS143")]]), reply_to_message_id=message.id)
-
+    buttons = [
+        [InlineKeyboardButton("🤖BOT MADE BY TUSHAR🇮🇳­", url="https://t.me/Tushar_1665")],
+        [InlineKeyboardButton("🛎️UPDATE CHANNEL🛎️", url="https://t.me/forwardtushar")], 
+# Add more buttons here
+        [InlineKeyboardButton("🔥ALSO JOIN🔥", url="https://t.me/AIM_AIIMS143")]
+# Add more buttons as needed
+    ]
+     bot.send_message(
+        message.chat.id,
+        f"**👋Hi {message.from_user.mention}, I am Save Restricted Bot, which is Deployed by TUSHAR. I can send you restricted content by sending me a post link.\n\n{USAGE}",
+        reply_markup=InlineKeyboardMarkup(buttons),
+        reply_to_message_id=message.id)
+    
 
 @bot.on_message(filters.text)
 def save(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
