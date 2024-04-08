@@ -66,14 +66,14 @@ def progress(current, total, message, type):
 @bot.on_message(filters.command(["start"]))
 def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
     buttons = [
-        [InlineKeyboardButton("🤖BOT MADE BY TUSHAR🇮🇳", url="https://t.me/ksr_369")],
-        [InlineKeyboardButton("🛎️UPDATE CHANNEL🛎️", url="https://t.me/ksr_tool")],  # Add more buttons here
-        [InlineKeyboardButton("🔥ALSO JOIN🔥", url="https://t.me/donationseatv/2")],
+        [InlineKeyboardButton("🤖BOT MADE BY TUSHAR🇮🇳", url="https://t.me/Tushar_1665")],
+        [InlineKeyboardButton("🛎️UPDATE CHANNEL🛎️", url="https://t.me/forwardtushar")],  # Add more buttons here
+        [InlineKeyboardButton("🔥ALSO JOIN🔥", url="https://t.me/AIM_AIIMS143")],
         # Add more buttons as needed
     ]
     bot.send_message(
         message.chat.id,
-        f"**👋 Hi {message.from_user.mention}, I am Save Restricted Bot, which is Deployed by KSR. I can send you restricted content by sending me a post link.**\n\n{USAGE}",
+        f"**🫡जय हिन्द जय भारत🇮🇳 {message.from_user.mention}, I am Save Restricted Bot, which is Deployed by TUSHAR. I can send you restricted content by sending me a post link.**\n\n{USAGE}",
         reply_markup=InlineKeyboardMarkup(buttons),
         reply_to_message_id=message.id
     )
@@ -265,8 +265,6 @@ USAGE = """**💥💥💥💥💥💥💥💥💥💥💥**
 BOT : @TUSHAR0143_bot🤖
 BOT : @forward_tushar_bot🤖
 BOT : @tushar_forward_3_bot🤖
-JOIN : @AIM_AIIMS143🌟🌟🌟🌟
-UPDATE CHANNEL : @forwardtushar
 """
 
 
