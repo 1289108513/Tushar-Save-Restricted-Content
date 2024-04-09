@@ -69,6 +69,7 @@ def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_
         [InlineKeyboardButton("🤖BOT MADE BY🇮🇳", url="https://t.me/Tushar_1665")],
         [InlineKeyboardButton("🛎️UPDATE CHANNEL🛎️", url="https://t.me/forwardtushar")],  # Add more buttons here
         [InlineKeyboardButton("🔥ALSO JOIN🔥", url="https://t.me/AIM_AIIMS143")],
+        [InlineKeyboardButton("🤖FORWARD BOT-1🤖", url="http://t.me/forward_tushar_bot")],
 	[InlineKeyboardButton("🤖FORWARD BOT-2🤖", url="http://t.me/abhi_125_bot")],
 	[InlineKeyboardButton("🤖FORWARD BOT-3🤖", url="http://t.me/tushar_forward_3_bot")],
 	[InlineKeyboardButton("🤖NEET MATERIAL BOT🤖", url="http://t.me/TUSHAR0143_bot")],
