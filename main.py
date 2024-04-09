@@ -73,7 +73,7 @@ def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_
     ]
     bot.send_message(
         message.chat.id,
-        f"**🫡 जय हिन्द जय भारत 🇮🇳 {message.from_user.mention}, I am Save Restricted Bot, which is Deployed by TUSHAR. I can send you restricted content by sending me a post link.**\n\n{USAGE}",
+        f"**🫡 जय हिन्द जय भारत 🇮🇳 {message.from_user.mention}, I Aᴍ Sᴀᴠᴇ Rᴇsᴛʀɪcᴛᴇᴅ Bᴏᴛ. I Cᴀɴ Sᴇɴᴅ Yᴏᴜ, Rᴇsᴛʀɪcᴛᴇᴅ Cᴏɴᴛᴇɴᴛ Bʏ Sᴇɴᴅɪɴɢ Mᴇ A Pᴏsᴛ Lɪɴᴋ.**\n\n{USAGE}",
         reply_markup=InlineKeyboardMarkup(buttons),
         reply_to_message_id=message.id
     )
