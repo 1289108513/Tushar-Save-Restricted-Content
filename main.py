@@ -265,6 +265,12 @@ def get_message_type(msg: pyrogram.types.messages_and_media.message.Message):
 
 USAGE = """**✅FOR PRIVATE & PUBLIC CHATS✅**
 
+Hᴏᴡ Tᴏ Usᴇ Tʜɪs Bᴏᴛ🤖?
+
+𝟷) Fᴏʀ Pʀɪᴠᴀᴛᴇ Cʜᴀɴɴᴇʟ & Gʀᴏᴜᴘ, Fɪʀsᴛʟʏ Sᴇɴᴅ Tʜᴇ Iɴᴠɪᴛᴇ Lɪɴᴋ Tᴏ Tʜᴇ Bᴏᴛ,Aꜰᴛᴇʀ Tʜᴀᴛ Sᴇɴᴅ Tʜᴇ Lɪɴᴋ Oꜰ Pᴏsᴛ (Vɪᴅᴇᴏ/Pᴅꜰ/Msɢ).
+
+𝟸 ) Fᴏʀ Pᴜʙʟɪc Cʜᴀɴɴᴇʟ & Gʀᴏᴜᴘ, Sᴇɴᴅ Tʜᴇ Lɪɴᴋ Oꜰ Pᴏsᴛ (Vɪᴅᴇᴏ/Pᴅꜰ/Msɢ).
+
 Tʜᴀɴᴋ Yᴏᴜ🤗
 """
 
