@@ -66,8 +66,8 @@ def progress(current, total, message, type):
 @bot.on_message(filters.command(["start"]))
 def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
     buttons = [
-        [InlineKeyboardButton("🤖BOT MADE BY🇮🇳", url="https://t.me/AIM_AIIMS143")],
-        [InlineKeyboardButton("🛎️UPDATE CHANNEL🛎️", url="https://t.me/AIM_AIIMS143")],  # Add more buttons here
+        [InlineKeyboardButton("🤖BOT MADE BY🇮🇳", url="https://t.me/Tushar_1665")],
+        [InlineKeyboardButton("🛎️UPDATE CHANNEL🛎️", url="https://t.me/tusharupdate")],  # Add more buttons here
         [InlineKeyboardButton("🔥ALSO JOIN🔥", url="https://t.me/AIM_AIIMS143")],
         [InlineKeyboardButton("🤖NEET MATERIAL BOT🤖", url="http://t.me/TUSHAR0143_bot")],
 	# Add more buttons as needed
